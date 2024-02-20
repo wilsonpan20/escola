@@ -13,8 +13,8 @@ class Aluno(models.Model):
 class Curso(models.Model):
    NIVEL =(
       ('B','Básico'),
-      ('I','Básico'),
-      ('B','Básico'),
+      ('I','Intemediario'),
+      ('B','Avançado'),
 
    )
    codigo_curso = models.CharField(max_length=10)
